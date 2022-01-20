@@ -17,7 +17,7 @@
             stop(offset='0%' stop-color='rgb(0, 81, 255)' stop-opacity='1')
             stop(offset='100%' stop-color='rgb(0,255,255)' stop-opacity='1')
         circle(cx='80' cy='80' r='70' :style="{strokeDashoffset: cp}")
-    h1#time.d-inline-block.mt-3.w-50.text-center(:class="{playtime:this.status !== 0,color:this.status !== 0}") {{ timeText }}
+    h1#time.d-inline-block.mt-3.text-center(:class="{playtime:this.status !== 0,color:this.status !== 0}") {{ timeText }}
       button#stop(v-if="this.status === 1" @click="pause()")
         b-icon#pos(icon='pause-circle-fill' scale='.5' variant='info')
       button#stopB(v-else-if="this.status === 2" @click="play()")
