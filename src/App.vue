@@ -17,11 +17,11 @@
             stop(offset='0%' stop-color='rgb(0, 81, 255)' stop-opacity='1')
             stop(offset='100%' stop-color='rgb(0,255,255)' stop-opacity='1')
         circle(cx='80' cy='80' r='70' :style="{strokeDashoffset: cp}")
-    h1#time.d-inline-block.mt-3.text-center(:class="{playtime:this.status !== 0,color:this.status !== 0}") {{ timeText }}
-      button#stop(v-if="this.status === 1" @click="pause()")
-        b-icon#pos(icon='pause-circle-fill' scale='.5' variant='info')
-      button#stopB(v-else-if="this.status === 2" @click="play()")
-        b-icon#posB(icon='play-circle-fill' scale='.5' variant='danger')
+    h1#time.d-inline-block.w-75.mt-3.text-center(:class="{playtime:this.status !== 0,color:this.status !== 0}") {{ timeText }}
+    button#stop.p-0(v-if="this.status === 1" @click="pause()")
+      b-icon#pos(icon='pause-circle-fill' scale='2.5' variant='info')
+    button#stopB.p-0(v-else-if="this.status === 2" @click="play()")
+      b-icon#posB(icon='play-circle-fill' scale='2.5' variant='danger')
     h4.text-center.mt-2.font-weight-bold(style="color: #ffce5d") 好累哦...
     #menu
       router-view
