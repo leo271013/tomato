@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "344c149f661dc379799c",
-    "url": "css/app.378a5553.css"
+    "revision": "edd5953f59e9709d6911",
+    "url": "css/app.2933f690.css"
   },
   {
     "revision": "97504a2c6a0d32938bc0",
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/eggroll.0b6c0648.jpg"
   },
   {
-    "revision": "c1025e224a525549bdedf43c753742cb",
+    "revision": "891cabcbfa6e620f463a5c7d38b37e04",
     "url": "index.html"
   },
   {
-    "revision": "344c149f661dc379799c",
-    "url": "js/app.45e24d67.js"
+    "revision": "edd5953f59e9709d6911",
+    "url": "js/app.29d201e8.js"
   },
   {
     "revision": "97504a2c6a0d32938bc0",
